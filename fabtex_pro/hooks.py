@@ -57,7 +57,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "fabtex_pro.install.before_install"
-# after_install = "fabtex_pro.install.after_install"
+after_install =  "fabtex_pro.utils.after_install.after_install"
 
 # Uninstallation
 # ------------
