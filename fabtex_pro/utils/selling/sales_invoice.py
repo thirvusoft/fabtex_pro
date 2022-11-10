@@ -200,12 +200,6 @@ def custom_fields():
 			"fieldtype" : "Column Break",
 			"insert_after" : "ts_vessel_flight_no"
 		},
-		# {
-		# 	"fieldname" : "ts_g_r_no_date",
-		# 	"label" : "G.R No. Date",
-		# 	"fieldtype" : "Data",
-		# 	"insert_after" : "ts_column_break"
-		# },
 		{
 			"fieldname" : "ts_g_r_no_",
 			"label" : "G.R No.",
