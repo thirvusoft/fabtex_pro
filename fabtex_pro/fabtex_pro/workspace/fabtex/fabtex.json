@@ -1,0 +1,200 @@
+{
+ "cards_label": "Purchase & Sales",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-11-09 11:21:29.812500",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "icon": "",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Fabtex",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Cycle",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Request",
+   "link_to": "Material Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Order",
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Receipt",
+   "link_to": "Purchase Receipt",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Cycle",
+   "link_to": "",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Order",
+   "link_to": "Sales Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Note",
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-11-09 11:29:50.489716",
+ "modified_by": "Administrator",
+ "module": "Fabtex Pro",
+ "name": "Fabtex",
+ "onboarding": "",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Item",
+   "link_to": "Item",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "BOM",
+   "link_to": "BOM",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Work Order",
+   "link_to": "Work Order",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Stock Entry",
+   "link_to": "Stock Entry",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Stock Summary",
+   "link_to": "Total Stock Summary",
+   "type": "Report"
+  },
+  {
+   "doc_view": "List",
+   "label": "Profit and Loss Statement",
+   "link_to": "Profit and Loss Statement",
+   "type": "Report"
+  },
+  {
+   "doc_view": "List",
+   "label": "Item Tax Template",
+   "link_to": "Item Tax Template",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Purchase Taxes and Charges Template",
+   "link_to": "Purchase Taxes and Charges Template",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Sales Taxes and Charges Template",
+   "link_to": "Sales Taxes and Charges Template",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Fabtex"
+}
