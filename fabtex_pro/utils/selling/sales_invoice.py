@@ -47,12 +47,18 @@ def custom_fields():
 			},
 			{
 				"fieldname": "lr_no",
-				"label": "Transport Receipt No",
+				"label": "Transport Receipt No.",
 				"fieldtype": "Data",
 				"insert_after": "driver",
 				"print_hide": 1,
 				"translatable": 0,
 				"length": 30,
+			},
+			{
+				"fieldname" : "ts_vessel_flight_no",
+				"label" : "Vessel/Flight/Vehicle No.",
+				"fieldtype" : "Data",
+				"insert_after" : "lr_no"
 			},
 			{
 				"fieldname": "vehicle_no",
@@ -68,7 +74,7 @@ def custom_fields():
 				"fieldname": "distance",
 				"label": "Distance (in km)",
 				"fieldtype": "Float",
-				"insert_after": "vehicle_no",
+				"insert_after": "ts_vessel_flight_no",
 				"print_hide": 1,
 				"hidden":1
 			},
@@ -178,10 +184,22 @@ def custom_fields():
 			"insert_after" : "ts_suppliers_ref"
 		},
 		{
+			"fieldname" : "ts_other_references1",
+			"label" : "Other References",
+			"fieldtype" : "Data",
+			"insert_after" : "ts_other_references"
+		},
+		{
+			"fieldname" : "ts_other_references2",
+			"label" : "Other References",
+			"fieldtype" : "Data",
+			"insert_after" : "ts_other_references1"
+		},
+		{
 			"fieldname" : "ts_despatch_document_no",
 			"label" : "Despatch Document No.",
 			"fieldtype" : "Data",
-			"insert_after" : "ts_other_references"
+			"insert_after" : "ts_other_references2"
 		},
 		{
 			"fieldname" : "ts_despatch_through",
@@ -190,15 +208,9 @@ def custom_fields():
 			"insert_after" : "ts_despatch_document_no"
 		},
 		{
-			"fieldname" : "ts_vessel_flight_no",
-			"label" : "Vessel/Flight No.",
-			"fieldtype" : "Data",
-			"insert_after" : "ts_despatch_through"
-		},
-		{
 			"fieldname" : "ts_column_break",
 			"fieldtype" : "Column Break",
-			"insert_after" : "ts_vessel_flight_no"
+			"insert_after" : "ts_despatch_through"
 		},
 		{
 			"fieldname" : "ts_g_r_no_",
