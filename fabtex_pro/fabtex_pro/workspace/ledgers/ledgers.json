@@ -1,0 +1,55 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-01-05 17:06:56.525188",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Ledgers",
+ "links": [],
+ "modified": "2023-01-05 17:12:11.687782",
+ "modified_by": "Administrator",
+ "module": "Fabtex Pro",
+ "name": "Ledgers",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Chart of Accounts",
+   "link_to": "Account",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "General Ledger",
+   "link_to": "General Ledger",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Customer Ledger Summary",
+   "link_to": "Customer Ledger Summary",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Trial Balance",
+   "link_to": "Trial Balance",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Accounts Receivable",
+   "link_to": "Accounts Receivable",
+   "type": "Report"
+  }
+ ]
+}
