@@ -13,7 +13,7 @@
  "is_standard": 1,
  "label": "Reports",
  "links": [],
- "modified": "2023-01-05 17:14:35.469477",
+ "modified": "2023-01-25 16:22:47.657945",
  "modified_by": "Administrator",
  "module": "Fabtex Pro",
  "name": "Reports",
@@ -55,6 +55,30 @@
    "doc_view": "",
    "label": "Accounts Payable",
    "link_to": "Accounts Payable",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "GSTR-1",
+   "link_to": "GSTR-1",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "HSN Wise Summary",
+   "link_to": "HSN-wise-summary of outward supplies",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Profit and Loss Statement",
+   "link_to": "Profit and Loss Statement",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Balance Sheet",
+   "link_to": "Balance Sheet",
    "type": "Report"
   }
  ]
