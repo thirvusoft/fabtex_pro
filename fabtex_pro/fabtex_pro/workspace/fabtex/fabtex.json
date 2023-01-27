@@ -132,7 +132,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-11-09 11:29:50.489716",
+ "modified": "2023-01-25 16:23:03.625417",
  "modified_by": "Administrator",
  "module": "Fabtex Pro",
  "name": "Fabtex",
@@ -169,12 +169,6 @@
    "doc_view": "List",
    "label": "Stock Summary",
    "link_to": "Total Stock Summary",
-   "type": "Report"
-  },
-  {
-   "doc_view": "List",
-   "label": "Profit and Loss Statement",
-   "link_to": "Profit and Loss Statement",
    "type": "Report"
   },
   {
