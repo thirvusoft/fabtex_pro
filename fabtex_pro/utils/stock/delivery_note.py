@@ -23,14 +23,7 @@ def custom_fields():
 			"collapsible" : 1,
 			"insert_after" : "lr_date"
 		},
-		# {
-		# 	"fieldname": "ts_sales_invoice_group",
-		# 	"label": "Sales Invoice Group",
-		# 	"fieldtype": "Link",
-		# 	"options" : "Sales Invoice Group",
-		# 	"insert_after": "customer_name",
-		# 	"reqd" : 1
-		# },
+
 		{
 			"fieldname" : "ts_others",
 			"label" : "Others",
