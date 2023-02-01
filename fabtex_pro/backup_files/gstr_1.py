@@ -243,6 +243,26 @@ class Gstr1Report(object):
 		for column in self.other_columns:
 			if column.get("fieldname") == "cess_amount":	
 				row.append(flt(self.invoice_cess.get(invoice), 2))
+
+			# Customized By Thirvusoft
+			# Start
+			ts_sgst_amount = 0
+			ts_cgst_amount = 0
+			ts_igst_amount = 0
+
+			sales_doc = frappe.get_doc("Sales Invoice",row[2])
+
+			for tax in sales_doc.ts_tax_breakup_gst_table:
+				ts_sgst_amount += tax.ts_state_amount
+				ts_cgst_amount += tax.ts_central_amount
+				ts_igst_amount += tax.ts_igst_amount
+
+			if column.get("fieldname") == "sgst_amount":	
+				row.append(ts_sgst_amount)
+				row.append(ts_cgst_amount)
+				row.append(ts_igst_amount)
+
+			# End
 		return row, taxable_value
 
 	def get_invoice_data(self):
@@ -517,9 +537,15 @@ class Gstr1Report(object):
 					"width": 120,
 				},
 			]
+			# Customized By Thirvusoft
+			# Start
 			self.other_columns = [
+				{"fieldname": "sgst_amount", "label": "SGST Amount", "fieldtype": "Currency", "width": 100},
+				{"fieldname": "cgst_amount", "label": "CGST Amount", "fieldtype": "Currency", "width": 100},
+				{"fieldname": "igst_amount", "label": "IGST Amount", "fieldtype": "Currency", "width": 100},
 				{"fieldname": "cess_amount", "label": "Cess Amount", "fieldtype": "Currency", "width": 100}
 			]
+			# End
 
 		elif self.filters.get("type_of_business") == "B2C Large":
 			self.invoice_columns = [
