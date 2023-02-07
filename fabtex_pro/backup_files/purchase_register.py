@@ -188,10 +188,10 @@ def get_columns(invoice_list, additional_table_columns):
 		columns
 		+ expense_columns
 		+ unrealized_profit_loss_account_columns
-		+ [_("Net Total") + ":Currency/currency:120"]
-		+ tax_columns
 		# Customized By Thirvusoft
 		# Start
+		+ [_("Taxable Value") + ":Currency/currency:120"]
+		+ tax_columns
 		+ [
 			_("Total Tax") + ":Currency/currency:120",
 			_("Grand Total") + ":Currency/currency:120",
