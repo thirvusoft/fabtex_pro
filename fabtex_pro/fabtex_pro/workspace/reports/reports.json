@@ -13,7 +13,7 @@
  "is_standard": 1,
  "label": "Reports",
  "links": [],
- "modified": "2023-01-25 16:22:47.657945",
+ "modified": "2023-02-07 13:31:15.251391",
  "modified_by": "Administrator",
  "module": "Fabtex Pro",
  "name": "Reports",
@@ -55,6 +55,12 @@
    "doc_view": "",
    "label": "Accounts Payable",
    "link_to": "Accounts Payable",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Purchase Register",
+   "link_to": "Purchase Register",
    "type": "Report"
   },
   {
