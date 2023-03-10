@@ -54,7 +54,7 @@ def _execute(filters=None, additional_table_columns=None, additional_query_colum
 		# project = list(set(invoice_po_pr_map.get(inv.name, {}).get("project", [])))
 
 		# row = [inv.name, inv.posting_date, inv.supplier, inv.supplier_name]
-		row = [inv.name, inv.posting_date, inv.supplier, inv.supplier_gstin]
+		row = [inv.name, inv.bill_no, inv.posting_date, inv.supplier, inv.supplier_gstin]
 
 		# if additional_query_columns:
 		# 	for col in additional_query_columns:
@@ -113,6 +113,7 @@ def get_columns(invoice_list, additional_table_columns):
 	# Start
 	columns = [
 		_("Invoice") + ":Link/Purchase Invoice:120",
+		{"fieldname": "bill_no", "label": _("Supplier Invoice No."), "fieldtype": "Data", "width": 150},
 		_("Date") + ":Date:100",
 		_("Supplier") + "::150",
 		# _("GSTIN") + "::200",
